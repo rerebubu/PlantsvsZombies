@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8108df011c03754285761a13e6e0a00, type: 3}
+  m_Name: Bucket
+  m_EditorClassIdentifier: 
+  health: 20
+  speed: 0.0035
+  damage: 1
+  range: 0.5
+  eatCooldown: 1
+  sprite: {fileID: 21300000, guid: e27847d18ba83f949b95660849e261ea, type: 3}
+  deathSprite: {fileID: 21300000, guid: 4abb3f1acfa0cab4ab8e744abc8cdd57, type: 3}
+  hitClips:
+  - {fileID: 8300000, guid: 9f0ec8d8227b7d1418b0faf761fef047, type: 3}
+  - {fileID: 8300000, guid: 691e56691ece8b34895f28164d7860fe, type: 3}
